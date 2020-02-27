@@ -1,0 +1,15 @@
+<image mode='widthFix' src="/images/articleMain.jpg" class="bgImgage"></image>
+
+
+<view class="main">
+    <view class="loveBtn">
+        <yy-heart-btn widAndHei='150rpx'></yy-heart-btn>
+    </view>
+
+
+
+    <view class="g-img1">IMG1</view>
+
+</view>
+
+

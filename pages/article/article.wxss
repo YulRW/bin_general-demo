@@ -1,0 +1,42 @@
+.bgImgage {
+    position: relative;
+    /* top: -17vh; */
+    width: 100vw;
+}
+
+.main {
+    position: relative;
+    top: -5vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    border-top-left-radius: 60rpx 50rpx;
+    border-top-right-radius: 60rpx 50rpx;
+    z-index: 2;
+}
+
+.loveBtn {
+    position: relative;
+    font-size: 0;
+    z-index: 3;
+    width: 100rpx;
+    height: 100rpx;
+    top: -50rpx;
+    left: 50rpx;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 4rpx 15rpx gray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.g-img1 {
+    background-image: url('https://images.uiiiuiii.com/wp-content/uploads/2019/12/i-illust-nm0101-2-06.jpg');
+    background-attachment: fixed;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

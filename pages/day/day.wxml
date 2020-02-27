@@ -1,0 +1,22 @@
+<div class="main">
+  <div class="pc">
+    <div class="context">
+      <view class="text1_out">
+        <image src="../../images/gou.png" mode="widthFix" class="img" />
+        <text class="text1">3761</text>
+      </view>
+      <view class="text2">于翔</view>
+      <view class="text3">23号 19点18分</view>
+      <view class="text4">西01-04</view>
+      <view class="text5">证件: 3118005296</view>
+      <view class="text6">手机: 15800039630</view>
+      <view class="text7">
+        <image src="../../images/people.png" mode="widthFix" />
+      </view>
+    </div>
+  </div>
+
+  <div class="text8">
+    <view>应学校保卫处要求，由于新生入学期间，骗子和发传单的人数剧增，为了保障同学的利益，白天出入宿舍需要出示学生证或使用此小程序登记并且出示该页面。具体规定以实际操作为准。</view>
+  </div>
+</div>

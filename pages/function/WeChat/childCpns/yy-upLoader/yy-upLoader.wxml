@@ -1,0 +1,29 @@
+<!-- 外层 -->
+<view class="weui-uploader__bd">
+    <!-- 预览层 -->
+    <view class="weui-uploader__files" id="uploaderFiles">
+
+        <block wx:if='{{files.length == 1 && show}}'>
+            <image src="{{files[0]}}" mode="widthFix" class="onepyqPic" bindload="imageLoad" style="width:{{firPicWidth}};height:{{firPicHeight}}"></image>
+        </block>
+
+        <block wx:else>
+
+            <block wx:for="{{files}}" wx:key="*this">
+
+                <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                    <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                </view>
+
+            </block>
+        </block>
+
+    </view>
+
+    <!-- 添加层 -->
+    <block wx:if='{{files.length < 9 && !show}}'>
+        <view class="weui-uploader__input-box">
+            <view class="weui-uploader__input" bindtap="chooseImage"></view>
+        </view>
+    </block>
+</view>

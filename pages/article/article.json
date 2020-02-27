@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "yy-heart-btn": "/components/yy-heart-btn/yy-heart-btn"
+  },
+  "navigationStyle":"custom"
+}

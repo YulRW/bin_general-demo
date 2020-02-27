@@ -1,0 +1,142 @@
+/* pages/night/night.wxss */
+
+/* pages/index3/index.wxss */
+page{
+    height: 100vh;
+}
+
+main{
+    height: 100vh;
+
+
+}
+
+
+.pc {
+    display: flex;
+    width: 100vw;
+    /* height: 75vh; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.context{
+    margin-top: 3vh;
+    width: 90vw;
+    height: 100%;
+    border-radius: 13px;
+    border: 4px white dotted;
+    background: linear-gradient(45deg, #fa756b, #ff8d69);
+
+}
+
+.img{
+    width: 9vh;
+    vertical-align: sub;
+    display: inline-block;
+}
+
+.text1_out{
+    margin-top: 3vh;
+}
+
+
+.text1{
+    /* margin-top: 5vh; */
+    font-family: 'Source Sans Variable';
+    color: red;
+    font-size: 100rpx;
+    text-shadow: 1px 1px 3px black;
+    
+}
+
+.text2{
+    margin-top: 1vh;
+    color: white;
+    font-size: 110rpx;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.text3{
+    margin-top: 4vh;
+    color: black;
+    text-shadow: 1px 0px 3px white; 
+    font-size: 80rpx;
+    font-weight: bold;
+}
+
+.text4{
+    display: inline-block;
+    
+    margin-top: 2vh;
+    padding: 10rpx;
+    padding-left: 2rpx;
+    padding-right: 2rpx;
+
+    color: white;
+    width: 28vw;
+    border: 1px gray solid;
+    border-radius: 5px;
+    font-size: 50rpx;
+}
+
+.text5{
+    margin-top: 1vh;
+    font-size: 45rpx;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.text6{
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    font-size: 45rpx;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.text7 image{
+    margin-top: 1vh;
+    width: 30vw;
+    margin-bottom: 2vh;
+}
+
+.text8{
+    position: fixed;
+    bottom: 8rpx;
+    margin-top: 2vh;
+    color: gray;
+    font-size: 25rpx;
+}
+
+.text8 view{
+  
+    text-align: center;
+    width: 96vw;
+    line-height: 40rpx;
+}
+
+
+.text9{
+  font-weight: bold;
+  font-size: 60rpx;
+}
+
+
+.text10{
+  margin: 35rpx 0;
+  text-align: center;
+  font-size: 75rpx;
+}
+
+.text11{
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: bolder;
+}
+

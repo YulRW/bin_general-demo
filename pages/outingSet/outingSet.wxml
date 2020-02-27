@@ -1,0 +1,9 @@
+<form bindsubmit='go'>
+    <view class="out">
+        <input type="text" placeholder="请输入编号(建议:填4位数字)" name="text1"></input>
+        <input type="text" placeholder="请输入名字" name="text2"></input>
+        <input type="text" placeholder="请输入证件(311800xxxx)" name="text3" value="311800"></input>
+        <input type="text" placeholder="请输入手机" name="text4"></input>
+    </view>
+    <button form-type='submit'>生成图片</button>
+</form>

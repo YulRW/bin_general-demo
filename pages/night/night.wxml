@@ -1,0 +1,22 @@
+<div class="main">
+  <view class="text11">请将此结果出示给保安人员.</view>
+  <div class="pc">
+    <div class="context">
+      <view class="text1_out">
+        <image src="../../images/gou.png" mode="widthFix" class="img" />
+        <text class="text1">{{code}}</text>
+      </view>
+      <view class="text2">{{name}}</view>
+      <view class="text3">{{day}}号 {{hour}}点{{min}}分</view>
+      <view class="text4">{{addr}}</view>
+      <view class="text9">类型：{{type}}</view>
+      <view class="text5">号码: {{number}}</view>
+      <view class="text6">学院: {{academy}}</view>
+    </div>
+  </div>
+  <view class="text10">返回首页</view>
+
+  <div class="text8">
+    <view>-院生通团队提供技术支持-</view>
+  </div>
+</div>

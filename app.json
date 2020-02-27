@@ -1,0 +1,72 @@
+{
+    "pages": [
+        "pages/function/WeChat/edit/edit",
+        "pages/function/WeChat/article/article",
+        "pages/test/test",
+        "pages/article/article",
+        "pages/index/index",
+        "pages/love/love",
+        "pages/night/night",
+        "pages/day/day",
+        "pages/home/home",
+        "pages/outingSet/outingSet",
+        "pages/index4/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#ec66a3",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "饼屋",
+        "navigationStyle": "default",
+        "backgroundColor": "#ffffff",
+        "backgroundTextStyle": "dark",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50,
+        "pageOrientation": "portrait"
+    },
+    "tabBar": {
+        "color": "#cccccc",
+        "selectedColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "white",
+        "position": "bottom",
+        "custom": false,
+        "list": [
+            {
+                "pagePath": "pages/love/love",
+                "text": "倒数日",
+                "iconPath": "assets/icons/love.png",
+                "selectedIconPath": "assets/icons/loveAfter.png"
+            },
+            {
+                "pagePath": "pages/home/home",
+                "text": "记账",
+                "iconPath": "assets/icons/金币After.png",
+                "selectedIconPath": "assets/icons/金币.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "",
+                "iconPath": "assets/icons/iconAfter.png",
+                "selectedIconPath": "assets/icons/icon.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "菜单",
+                "iconPath": "assets/icons/tubiao.png",
+                "selectedIconPath": "assets/icons/bubiaoAfter.png"
+            },
+            {
+                "pagePath": "pages/index4/index",
+                "text": "文件",
+                "iconPath": "assets/icons/log.png",
+                "selectedIconPath": "assets/icons/logAfter.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "permission": {
+        "scope.userLocation": {
+            "desc": "饼将军想要获取你的位置,需要你的授权~"
+        }
+    }
+}
