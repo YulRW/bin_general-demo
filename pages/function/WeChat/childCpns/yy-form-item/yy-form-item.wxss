@@ -62,4 +62,5 @@
 
 .green .set-item-text:before{
     color:var(--green);
+    font-weight: bold;
 }

@@ -86,9 +86,10 @@
 .commentContentStyle::before {
     position: absolute;
     content: "\e64e";
-    font-size: 28rpx;
+    font-size: 26rpx;
     top: 35rpx;
-    left: 19rpx;
+    left: 20rpx;
     color: var(--blue);
+    font-weight: bolder;
 }
 

@@ -7,6 +7,23 @@
             <image src="{{files[0]}}" mode="widthFix" class="onepyqPic" bindload="imageLoad" style="width:{{firPicWidth}};height:{{firPicHeight}}"></image>
         </block>
 
+        <block wx:elif='{{files.length == 4 && show}}'>
+            <view class="weui-uploader__file" bindtap="previewImage" id="{{files[0]}}">
+                <image class="weui-uploader__img" src="{{files[0]}}" mode="aspectFill" />
+            </view>
+            <view class="weui-uploader__file" bindtap="previewImage" id="{{files[1]}}">
+                <image class="weui-uploader__img" src="{{files[1]}}" mode="aspectFill" />
+            </view>
+            <view class="weui-uploader__file">
+            </view>
+            <view class="weui-uploader__file" bindtap="previewImage" id="{{files[2]}}">
+                <image class="weui-uploader__img" src="{{files[2]}}" mode="aspectFill" />
+            </view>
+            <view class="weui-uploader__file" bindtap="previewImage" id="{{files[3]}}">
+                <image class="weui-uploader__img" src="{{files[3]}}" mode="aspectFill" />
+            </view>
+        </block>
+        
         <block wx:else>
 
             <block wx:for="{{files}}" wx:key="*this">

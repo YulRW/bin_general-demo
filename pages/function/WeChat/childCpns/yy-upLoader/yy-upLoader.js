@@ -4,9 +4,15 @@ Component({
      * 组件的属性列表
      */
     properties: {
-        files: {
+        filesData: {
             type: Array,
-            value: []
+            value: [],
+            observer:function(newVal,oldVal){
+                console.log(newVal)
+                this.setData({
+                    files:newVal
+                })
+            }
         },
         show: {
             type: Boolean,

@@ -1,5 +1,5 @@
 <!-- 微信评论模块 -->
-<view class="mypyqComment">
+<view class="mypyqComment" wx:if='{{commentData.commentUserList.length > 0 ||commentData.goodUserAvatarList != 0 ||selfGood }}'>
     <!-- 三角形 -->
     <view class="triangleStyle"></view>
 
@@ -28,16 +28,20 @@
         </view>
     </block>
 
-    <!-- 评论内容栏 -->
-    <view class="commentContentStyle ~iconfont">
-        <!-- 评论Icon -->
-        <!-- <view class="commentLeftStyle ~iconfont">
+    <block wx:if='{{commentData.commentUserList.length > 0 }}'>
+        <!-- 评论内容栏 -->
+        <view class="commentContentStyle ~iconfont">
+            <!-- 评论Icon -->
+            <!-- <view class="commentLeftStyle ~iconfont">
         </view> -->
-        <!-- 评论用户列表 -->
+            <!-- 评论用户列表 -->
 
-        <block wx:for='{{commentData.commentUserList}}' wx:key='contentText'>
-            <yy-comment-item user='{{item}}' catchlongpress="showSelect" />
-        </block>
+            <block wx:for='{{commentData.commentUserList}}' wx:key='contentText'>
+                <yy-comment-item user='{{item}}' catchlongpress="showSelect" />
+            </block>
 
-    </view>
+        </view>
+
+    </block>
+
 </view>

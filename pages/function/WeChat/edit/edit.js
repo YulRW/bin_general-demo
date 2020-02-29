@@ -3,7 +3,7 @@ Page({
     getTime(e) {
         this.setData({
             'pageData.article.date.time': e.detail.value,
-            'status.item3':true
+            'status.item3': true
         })
     },
     getDate(e) {
@@ -81,22 +81,12 @@ Page({
             },
             comment: {
                 goodUserAvatarList: '',
-                commentUserList: [
-                    {
-                        contentText: '亲爱的ss~永远..~永远~爱你哟',
-                        date:{
-                            date:'',
-                            time:''
-                        }
-                    }
-
-
-                ]
+                commentUserList: []
 
             }
         },
         multiArray: [
-            ['0','1'],
+            ['0', '1'],
             ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
             ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
         ],
@@ -104,12 +94,30 @@ Page({
             multiIndex: [0, 5, 5]
         },
 
-        status:{
-            item1:false,
-            item2:false,
-            item3:false,
-            item4:false
+        status: {
+            item1: false,
+            item2: false,
+            item3: false,
+            item4: false
         }
+    },
+    clearEdit() {
+        this.setData({
+            'status.item1': false,
+            'pageData.comment.goodUserAvatarList': '',
+
+            'status.item2': false,
+            'pageData.article.date.date': '',
+
+            'status.item3': false,
+            'pageData.article.date.time': '',
+
+            'pageData.article.pictureList':[],
+
+            'pageData.article.contentText':'不写点东西吗？...^_^',
+
+
+        })
     },
     getText(e) {
         this.setData({
@@ -133,6 +141,10 @@ Page({
      */
     onLoad: function(options) {
 
+    },
+    onShow(){
+        this.clearEdit();
+        console.log(1)
     },
 
 
