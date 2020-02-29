@@ -8,7 +8,6 @@ Component({
             type: Array,
             value: [],
             observer:function(newVal,oldVal){
-                console.log(newVal)
                 this.setData({
                     files:newVal
                 })
@@ -17,6 +16,17 @@ Component({
         show: {
             type: Boolean,
             value: false
+        },
+        clearFiles:{
+            type:Boolean,
+            value:false,
+            observer:function(newVal,oldVal){
+                if(newVal){
+                    this.setData({
+                        files:[]
+                    })
+                }
+            }
         }
     },
 
